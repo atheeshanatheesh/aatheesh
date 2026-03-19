@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagarasa Atheeshan Portfolio</title>
+    <style>
+        /* Reset & basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header / Hero Section */
+        header {
+            background-color: #2e3a87;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        /* Section Titles */
+        h2 {
+            color: #2e3a87;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2e3a87;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* About Section */
+        .about p {
+            margin-bottom: 10px;
+        }
+
+        /* Grid for sections */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media(max-width: 768px){
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Cards */
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Projects list */
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        /* Contact */
+        .contact a {
+            display: inline-block;
+            margin-right: 20px;
+            color: #2e3a87;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2e3a87;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Nagarasa Atheeshan</h1>
+        <p>Hardware & Networking Technician | Software Developer</p>
+    </header>
+
+    <div class="container">
+
+        <!-- About Me -->
+        <section class="about">
+            <h2>About Me</h2>
+            <p><strong>Date of Birth:</strong> 19 September 2000</p>
+            <p><strong>Address:</strong> Kovikadavai, Thunnalai Centre, Karaveddy, Jaffna</p>
+            <p><strong>Phone:</strong> 0762141606</p>
+            <p><strong>Email:</strong> atheeshanatheesh@gmail.com</p>
+            <p><strong>NIC:</strong> 200026301305</p>
+            <p><strong>Nationality:</strong> Sri Lankan</p>
+            <p><strong>Gender:</strong> Male | Unmarried</p>
+        </section>
+
+        <!-- Education -->
+        <section class="education">
+            <h2>Education</h2>
+            <div class="card">
+                <p><strong>Information Communication Technology NVQ-L-05 (Diploma)</strong></p>
+                <p><strong>Hardware & Network Technician NVQ-L-04</strong></p>
+                <p><strong>Institute:</strong> Sri Lankan German Training Institute</p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="card">
+                <ul>
+                    <li>Vehicle Management System</li>
+                    <li>Vehicle Parking System</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="skills">
+            <h2>Technical Skills</h2>
+            <div class="card">
+                <ul>
+                    <li>Networking & Computer Repairing</li>
+                    <li>Software Programming: HTML, CSS, Java, Python, PHP, MySQL, C#</li>
+                    <li>MS Office</li>
+                    <li>CCTV Installation & Fixing</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <div class="card">
+                <p><strong>Company:</strong> JP Technologies</p>
+                <p><strong>Position:</strong> Accountant & PC Repairing, CCTV Fixing and Sealer</p>
+                <p><strong>Years:</strong> 2024 - 2025</p>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <div class="card">
+                <ul>
+                    <li>ICT & Hardware & Networking Technology NVQ-L-04 Certificate</li>
+                    <li>ICT NVQ-L-05 (Diploma) Certificate</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Languages -->
+        <section class="languages">
+            <h2>Languages</h2>
+            <div class="card">
+                <ul>
+                    <li>Tamil</li>
+                    <li>English</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <a href="mailto:atheeshanatheesh@gmail.com">Email Me</a>
+            <a href="tel:0762141606">Call Me</a>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Nagarasa Atheeshan | Portfolio
+    </footer>
+
+</body>
+</html>
